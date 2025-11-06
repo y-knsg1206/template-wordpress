@@ -1,0 +1,21 @@
+@use "global" as *;
+
+@if $startFrom ==sp {
+  .sp-only {
+    display: block;
+
+    @include mq("md") {
+      display: none;
+    }
+  }
+}
+
+@else {
+  .sp-only {
+    display: none;
+
+    @include mq("md") {
+      display: block;
+    }
+  }
+}

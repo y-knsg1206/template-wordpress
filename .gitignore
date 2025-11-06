@@ -1,0 +1,20 @@
+# git対象としないファイル、フォルダを記載する
+
+gulp/node_modules
+gulp/package-lock.json
+.vscode/
+assets/
+# Mac
+.DS_Store
+__MACOSX
+thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+/CODING_STANDARDS.md
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
